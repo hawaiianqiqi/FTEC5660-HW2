@@ -4,3 +4,7 @@ langchain-deepseek>=1.1,<2
 langchain-mcp-adapters>=0.2,<1
 markitdown[pdf]>=0.1,<1
 python-dotenv>=1.0,<2
+
+# Only needed to rebuild task2/adversarial_cv.pdf with task2/make_adversarial_cv.py.
+# hw2.py itself does not import pymupdf.
+pymupdf>=1.24
